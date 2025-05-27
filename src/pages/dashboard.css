@@ -1,0 +1,225 @@
+#logo
+{
+    position: fixed;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 4%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.calendar
+{
+    position: fixed;
+    top: 28%;
+    left: 4%;
+    font-weight: bolder;
+}
+
+.clock
+{
+    position: fixed;
+    top: 80%;
+    left: 9%;
+    font-weight: bolder;
+}
+
+.mainmenu
+{
+  position: fixed;
+}
+
+.navigateButton
+{
+    color: rgb(0, 0, 0);
+    border-style: none;
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+#container-dashboard
+{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    position: fixed;
+    top: 28%;
+    height: 50px;
+    width: 750px;
+    border-style: none;
+    margin-left: 40%;
+  }
+  
+  .sub-box 
+  {
+    width: 50%;
+    height: 50%;  
+    text-align: center; 
+    line-height: 50px; 
+    border-bottom: 7px solid #000000; 
+    border-right: 7px solid #000000; 
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+  }
+
+  .box-2, .box-4 
+  { 
+    border-right: none;
+  }
+  
+  .box-3, .box-4 
+  {
+    border-bottom: none;
+  }
+  
+  .sub-box.box-1
+  {
+    font-size: 30px;
+    height: 220px;
+    font-weight: bolder;
+    background: rgb(255, 255, 255);
+  }
+  
+  .sub-box.box-2
+  {
+    font-size: 30px;
+    
+    height: 220px;
+    font-weight: bolder;
+    background: white;
+    
+  }
+  
+  .sub-box.box-3
+  {
+    font-size: 30px;
+    
+    height: 220px;
+    font-weight: bolder;
+    background: rgb(255, 255, 255);
+  }
+
+  .incharjUN
+  {
+    color: #000000;
+    background-color: white;
+    margin-top: 60px;
+    font-size: 30px;
+  }
+  
+  .sub-box.box-4
+  {
+    font-size: 30px;
+    font-weight: bolder;
+    background: rgb(0, 0, 0);
+  }
+
+  .totalSpace
+  {
+    font-size: 150px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: white;
+    color: #000000;
+  }
+
+  .totalFilledSpace
+  {
+    font-size: 150px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: white;
+    color: #000000;
+  }
+
+.alertBox {
+  font-size: 12px;
+  position: relative;
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(0, 0, 0);
+}
+
+.input-group {
+  display: inline-flex;padding-right: 5px;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+}
+
+.input-group label {
+  margin-right: 10px;
+}
+
+.input-group input {
+  padding: 5px;
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
+
+.alertBox button {
+  position: absolute;
+  bottom: -20%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.entry-button {
+  left: 10px;
+  color: aliceblue;
+  background-color: green;
+  border-style: none;
+}
+
+.exit-button {
+  right: 10px;
+  color: aliceblue;
+  background-color: red;
+  border-style: none;
+}
+
+
+#updateButton-totalspace
+{
+  margin-left: 280px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(0, 119, 255);
+  border-style: none;
+  cursor: pointer;
+}
+
+#changeInChargeButton
+{
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(0, 119, 255);
+  border-style: none;
+  cursor: pointer;
+}
+
+#contact-number
+{
+  border-radius: 10px;
+}
+
+#vehicle-number
+{
+  border-radius: 10px;
+}

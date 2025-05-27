@@ -1,0 +1,10 @@
+.digital-clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  

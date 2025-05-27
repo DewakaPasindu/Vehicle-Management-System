@@ -1,0 +1,126 @@
+#signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  position: relative;
+  z-index: 1;
+}
+
+#signup-form-wrapper {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+#signup-form-wrapper input {
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+
+#form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#FormName {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#username-input,
+#password-input {
+  width: fit-content;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+#login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 35px;
+  font-weight: bolder;
+}
+
+#login-button:hover {
+  background-color: #0056b3;
+}
+
+#or-log
+{
+  text-align: center;
+  margin-top: 15px;
+}
+
+#register-button
+{
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  font-weight: bolder;
+}
+
+#register-button:hover {
+  background-color: #0056b3;
+}
+
+.alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+#nameAnimation
+{
+  position: relative;
+  bottom: 50%;
+}
+
+#Company-logo-login {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  background: none;
+  z-index: 10;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}

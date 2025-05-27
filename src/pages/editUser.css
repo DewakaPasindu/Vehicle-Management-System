@@ -1,0 +1,66 @@
+#edit-user-container {
+  max-width: 400px;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-top: 6%;
+}
+
+#edit-user-heading {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+#edit-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-group {
+  margin-bottom: 15px;
+}
+
+#name-label, #nic-label, #email-label, #username-label, #password-label {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#name-input, #nic-input, #email-input, #username-input-edit, #password-input-edit {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-style: none;
+  border: 1px solid white;
+}
+
+#submit-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+
+#submit-button:hover {
+  background-color: #0056b3;
+}
+
+#Company-logo-edit {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}

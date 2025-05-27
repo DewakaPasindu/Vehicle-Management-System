@@ -1,0 +1,110 @@
+*
+{
+  color: white;
+}
+
+#name {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 50px;
+  }
+  
+  #container-vehicles {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    position: relative; 
+  }
+  
+  #search-bar-admin {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 10; 
+    background: none;
+  }
+  
+  .search-bar-admin {
+    margin-top: 10%;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black; 
+    background-color: white; 
+    z-index: 11; 
+  }
+  
+  .table-vehicles {
+    width: 78%;
+    margin-left: 10.5%;
+    border-collapse: collapse;
+    z-index: 1; 
+  }
+  
+  .table-vehicles th, .table-vehicles td {
+    border: 3px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table-vehicles td {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .table-vehicles th {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    border-color: black;
+    color: black;
+  }
+  
+  .table-vehicles tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #nameAnimation {
+    position: absolute;
+    bottom: 100%;
+    z-index: 1; 
+  }
+  
+  #Company-logo-vehicles {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    right: 105%;
+    background: none;
+    z-index: 10; 
+  }
+  
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .home-button {
+    color: rgb(0, 0, 0);
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    position: fixed; 
+    top: 12%; 
+    right: 5%; 
+    z-index: 100; 
+    cursor: pointer;
+  }
+  
+
+  .home-button-vehicles
+  {
+    cursor: pointer;
+  }

@@ -1,0 +1,55 @@
+/* src/Calendar.css */
+.calendar {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header button {
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  }
+  
+  .days-of-week, .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .day-of-week, .day, .empty-day {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .day {
+    border: 1px solid #000000;
+  }
+  
+  .empty-day {
+    border: 1px solid transparent;
+  }
+  
+  .today {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  

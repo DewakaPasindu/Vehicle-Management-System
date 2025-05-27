@@ -1,0 +1,21 @@
+#projectName {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(249, 247, 109);
+    position: fixed;
+    margin-top: 2%;
+    animation: moveRight 30s linear infinite;
+    width: 100%;
+    font-weight: bolder;
+    background: none;
+    white-space: nowrap; /* Ensure text doesn't wrap */
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(-100%); /* Start from the left edge */
+    }
+    100% {
+        transform: translateX(100%); /* End at the right edge */
+    }
+}

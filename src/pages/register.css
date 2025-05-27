@@ -1,0 +1,92 @@
+/* register.css */
+
+/* Styles for the form title */
+#FormName-register {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+/* Container for the register page */
+#container-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 2%;
+}
+
+/* Wrapper for the registration form */
+#form-wrapper-register {
+  border: 10px solid white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 450px; 
+  margin-top: 15%;
+  z-index: 10;
+}
+
+/* Heading inside the form wrapper */
+#form-wrapper-register h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333; 
+}
+
+/* Styles for input fields */
+#form-wrapper-register input[type='text'],
+#form-wrapper-register input[type='email'],
+#form-wrapper-register input[type='password'] {
+  width: 100%; /* Adjust width to fit within the form wrapper */
+  padding: 10px;
+  margin: 10px 0; /* Adjusted margin for vertical spacing */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff; /* Match background color */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Styles for buttons */
+#form-wrapper-register button {
+  background-color: #007bff; 
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 25px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Hover effect for buttons */
+#form-wrapper-register button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the "OR IF YOU ALREADY REGISTERED" text */
+#or-reg {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* Position for the company logo */
+#Company-logo {
+  position: fixed;
+  top: 12%;
+  left: 5%;
+  background: none;
+}
+
+/* Styling for the show password checkbox */
+#form-wrapper-register label {
+  color: white; /* Color of the label text */
+  display: block;
+}

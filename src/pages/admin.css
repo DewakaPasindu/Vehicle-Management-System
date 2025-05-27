@@ -1,0 +1,99 @@
+#name {
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+  font-size: 50px;
+}
+
+#container-admin {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+#search-bar-admin {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 10;
+  background: none;
+}
+
+.search-bar-admin {
+  margin-top: 10%;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  z-index: 11;
+}
+
+.table-admin {
+  width: 100%;
+  border-collapse: collapse;
+  z-index: 1;
+}
+
+.table-admin th, .table-admin td {
+  border: 3px solid #ddd;
+  padding: 8px;
+}
+
+.table-admin td {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.table-admin th {
+  background-color: #f2f2f2;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  border-color: black;
+  color: black;
+}
+
+.table-admin tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#nameAnimation {
+  position: absolute;
+  bottom: 100%;
+  z-index: 1;
+}
+
+#Company-logo-admin {
+  position: absolute;
+  top: 20%;
+  right: 105%;
+  background: none;
+  z-index: 10;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+#edit-button-admin {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+#edit-button-admin:hover {
+  background-color: #45a049;
+}

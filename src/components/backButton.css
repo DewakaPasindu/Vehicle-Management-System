@@ -1,0 +1,14 @@
+.theBackButton
+{
+    color: rgb(0, 0, 0);
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    position: fixed;
+}
